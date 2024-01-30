@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    font-family: 'Poppins', sans-serif;
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+.container{
+    background-color: rgb(245, 250, 248);
+    width: 60vw;
+    min-height: 60vh;
+    margin: 5vh auto;
+    padding: 40px;
+    border-radius: 5%;
+    box-shadow: 0 0 4px black;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.form{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.form-text{
+    width: 95%;
+    padding: 10px;
+    height: 35px;
+    margin: 0 0 15px 0;
+    font-family: inherit;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: black 0 0 1px;
+    font-size: 15px;
+}
+
+.form-text:focus{
+    background-color: rgb(240, 239, 239);
+    box-shadow: 0 0 3px black;
+    outline: none;
+}
+
+.form-filter{
+    margin: 35px 0 20px 0; 
+    width: 95%;
+    padding: 10px;
+    height: 35px;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px grey solid;
+}
+
+
+.form-button{
+    background-color: rgb(37, 37, 37);
+    color: wheat;
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    font-size: 11px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.items {
+    list-style-type: none;
+}
+
+.item{
+    font-weight: 600;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px grey;
+    padding: 5px;
+}
+
+.item .item-icon{
+    cursor: pointer;
+}
+
+.clear-button{
+    width: 100%;
+    font-size: 13px;        
+    padding: 5px;
+    box-shadow: 0 0 1px grey;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.clear-button:hover{
+    background-color: rgb(220, 230, 226);
+}
+
+
+.edit-mode{
+    color : grey;
+}
+
+@media screen and (max-width: 450px){
+    .title img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .title p{
+        font-size: 20px;
+    }
+}

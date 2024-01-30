@@ -16,7 +16,7 @@ body{
 
 .container{
     background-color: rgb(245, 250, 248);
-    width: 60vw;
+    width: 80vw;
     min-height: 60vh;
     margin: 5vh auto;
     padding: 40px;
@@ -131,5 +131,17 @@ body{
     
     .title p{
         font-size: 20px;
+    }
+
+    .item{
+        font-size: 10px;
+    }
+
+    .form-button{
+        font-size: 8px;
+    }
+
+    .form-filter,.form-text{
+        font-size: 12px;
     }
 }

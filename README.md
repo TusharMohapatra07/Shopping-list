@@ -9,3 +9,5 @@ FEATURES:
 5.Clicking on an existing item to put it into 'edit mode' and updating the item after editing by clicking on 'Update item' button.
 6.The item thats being added/removed also gets added/removed from the local storage. The local stroage integration enables the app to persist data even after page is 
   refreshed or closed.
+
+🔗 Check it out: https://project-shplst.netlify.app/

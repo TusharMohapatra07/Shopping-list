@@ -1,2 +1,3 @@
 # Shopping-list
-![image](https://github.com/TusharMohapatra07/Shopping-list/assets/137442734/3e18b43e-c3c4-4e72-99c1-9045348516af)
+![image](https://github.com/TusharMohapatra07/Shopping-list/assets/137442734/fdb69ef8-62b3-4363-8dd3-407c9c52d317)
+
